@@ -1,0 +1,11 @@
+#+ summary: GHOSTBUSTERS
+#+ endpoint: https://raw.githubusercontent.com/albertmeronyo/lodapi/master/ghostbusters.ttl
+#+ mime: text/turtle
+#+ method: GET
+#+ pagination: 100
+
+PREFIX mid: <http://example.org/midi/>
+
+SELECT ?track WHERE { 
+?track a mid:Track . 
+}
