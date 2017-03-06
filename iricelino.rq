@@ -1,0 +1,7 @@
+#+ summary: iricelino RDFa
+#+ endpoint: http://iricelino.org/rdfa/sample-annotated-page.html
+#+ mime: rdfa
+#+ method: GET
+#+ pagination: 100
+
+Query: SELECT * WHERE { ?s ?p ?o . }
