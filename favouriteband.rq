@@ -1,8 +1,0 @@
-#+ summary: favourite bands
-#+ endpoint: http://dbpedia.org/sparql
-#+ method: GET
-#+ pagination: 100
-
-http://dbpedia.org/resource/The_Beatles
-http://dbpedia.org/resource/Led_Zeppelin
-http://dbpedia.org/resource/<your_favourite_band>
